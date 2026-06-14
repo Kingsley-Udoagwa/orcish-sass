@@ -9,7 +9,7 @@ type ThemeProviderProps = {
 
 export function ThemeProvider({
   children,
-  defaultTheme = 'dark',
+  defaultTheme = 'auto',
   storageKey = 'theme',
 }: ThemeProviderProps) {
   useEffect(() => {
