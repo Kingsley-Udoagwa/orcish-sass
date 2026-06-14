@@ -9,7 +9,6 @@
     "dev": "vite dev --port 3000",
     "generate-routes": "tsr generate",
     "build": "vite build",
-    "postbuild": "node scripts/copy-netlify-publish.mjs",
     "preview": "vite preview",
     "test": "vitest run",
     "format": "biome format",
